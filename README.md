@@ -473,7 +473,7 @@ Lastly, we need to wire up our form. In the SearchForm component, add an `onSubm
 
 ```JSX
   // Destructure props object
-  const { handleSubmit, handleChange, searchString } = props;
+function SearchForm({ handleSubmit, handleChange, searchString }) {
   return (
     <form onSubmit={handleSubmit} className="form-horizontal">
       <input
@@ -487,6 +487,7 @@ Lastly, we need to wire up our form. In the SearchForm component, add an `onSubm
       <button type="submit">Search</button>
     </form>
   );
+}
 ```
 
 Test it out in the browser by typing something in the search field and pressing enter or clicking the search button.
