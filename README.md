@@ -627,7 +627,9 @@ One way that you can use SVGs in web applications is to store an SVG file in you
 </svg>
 ```
 
-In the SearchHeader, replace the `h1` element with the following:
+Save and close the file.  Then, import the file into the SearchHeader.js as `import logo from '../giphy-searcher-logo.svg';`
+
+Now, in the SearchHeader component return statement, replace the `h1` element with the following:
 
 ```jsx
 <div className="brand">
