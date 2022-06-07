@@ -26,7 +26,7 @@ Let's get working on building this thing!
 
 ## Sign up for an API key
 
-Before starting this project, you'll need to go to the [Giphy Developers site](https://developers.giphy.com/) and obtain an api key.
+Before starting this project, you'll need to go to the [Giphy Developers site](https://developers.giphy.com/docs/api/) and obtain an api key.
 
 1.  Create an account and sign in.
 1.  Set up an app by clicking the Create App in the navbar to obtain your beta key.
@@ -301,7 +301,7 @@ const SearchResults = ({ images }) => {
 
 We definitely need to add some styles, but at this point, you should see the images appear on the page in the browser. Nice work!
 
-To start, let's give the images some base styles. In the index.scss, add some css to make the images have a width of `100%` and give them each a margin on the bottom of `1rem`:
+To start, let's give the images some base styles. In the index.css, add some css to make the images have a width of `100%` and give them each a margin on the bottom of `1rem`:
 
 ```css
 img {
